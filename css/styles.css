@@ -4,7 +4,7 @@
 
 .row-content {
   margin: 0px auto;
-  padding: 50px 0pxm;
+  padding: 50px 0px;
   border-bottom: 1px ridge;
   min-height: 400px; }
 
@@ -36,6 +36,17 @@ body {
   border-right: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   padding: 10px; }
+
+.modal-content {
+  border: 0px; }
+  .modal-content .modal-body {
+    background: #D1C4E9; }
+  .modal-content .modal-header {
+    background: #512DA8;
+    color: floralwhite;
+    border: 0px; }
+    .modal-content .modal-header .close {
+      color: floralwhite; }
 
 .carousel {
   background: #512DA8; }
